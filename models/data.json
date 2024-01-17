@@ -1,0 +1,14 @@
+{
+    "name" : "Sean Michaels", 
+    "age" : 34, 
+    "gender" : "Male", 
+    "phone" : "6234344394", 
+    "email" : "email.one@email.com", 
+    "password" : "pass", 
+    "address" : {
+        "street" : "Bellandur, Bangalore", 
+        "city" : "Bangalore", 
+        "state": "Karnataka", 
+        "postalCode" : 560103
+    }
+}
