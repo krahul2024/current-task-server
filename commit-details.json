@@ -1,0 +1,199 @@
+{
+  "type": "message",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "contentUrl": null,
+      "content": {
+        "type": "AdaptiveCard",
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.5",
+        "body": [
+          {
+            "type" : "TextBlock", 
+            "text" : "Details of Commit on dd-mm-yyyy", 
+            "weight" : "Bolder", 
+            "wrap" : true 
+          }, 
+          {
+                "type": "Container",
+                "items": [
+                  {
+                    "type": "ColumnSet",
+                    "columns": [
+                      {
+                        "type": "Column",
+                        "width": "stretch",
+                        "items": [
+  {
+    "type": "TextBlock",
+    "text": "Branch:",
+    "weight": "Bolder",
+    "wrap": true
+  },
+  {
+    "type": "TextBlock",
+    "text": "Before Commit:",
+    "weight": "Bolder",
+    "wrap": true
+  },
+  {
+    "type": "TextBlock",
+    "text": "After Commit:",
+    "weight": "Bolder",
+    "wrap": true
+  },
+  {
+    "type": "TextBlock",
+    "text": "Pusher Name:",
+    "weight": "Bolder",
+    "wrap": true
+  },
+  {
+    "type": "TextBlock",
+    "text": "Pusher Email:",
+    "weight": "Bolder",
+    "wrap": true
+  },
+  {
+    "type": "TextBlock",
+    "text": "Compare URL:",
+    "weight": "Bolder",
+    "wrap": true
+  },
+  {
+    "type": "TextBlock",
+    "text": "Commit ID:",
+    "weight": "Bolder",
+    "wrap": true
+  },
+  {
+    "type": "TextBlock",
+    "text": "Commit Message:",
+    "weight": "Bolder",
+    "wrap": true
+  },
+  {
+    "type": "TextBlock",
+    "text": "Commit Timestamp:",
+    "weight": "Bolder",
+    "wrap": true
+  },
+  {
+    "type": "TextBlock",
+    "text": "Commit URL:",
+    "weight": "Bolder",
+    "wrap": true
+  },
+  {
+    "type": "TextBlock",
+    "text": "Commit Author Name:",
+    "weight": "Bolder",
+    "wrap": true
+  },
+  {
+    "type": "TextBlock",
+    "text": "Commit Author Email:",
+    "weight": "Bolder",
+    "wrap": true
+  },
+  {
+    "type": "TextBlock",
+    "text": "Commit Committer Name:",
+    "weight": "Bolder",
+    "wrap": true
+  },
+  {
+    "type": "TextBlock",
+    "text": "Commit Committer Email:",
+    "weight": "Bolder",
+    "wrap": true
+  }
+]
+
+                      },
+                      {
+                        "type": "Column",
+                        "width": "stretch",
+                        "items": [
+  {
+    "type": "TextBlock",
+    "text": "refs/heads/main"
+  },
+  {
+    "type": "TextBlock",
+    "text": "ec2c137"
+  },
+  {
+    "type": "TextBlock",
+    "text": "6697059"
+  },
+  {
+    "type": "TextBlock",
+    "text": "krahul2024"
+  },
+  {
+    "type": "TextBlock",
+    "text": "sandipkumar2024@gmail.com"
+  },
+  {
+    "type": "TextBlock",
+    "text": "https://github.com/krahul2024/Teams/compare/ec2c1376163e...66970590d119"
+  },
+  {
+    "type": "TextBlock",
+    "text": "66970590d11903b73fea21bc2d7c123e1eb7a8e7"
+  },
+  {
+    "type": "TextBlock",
+    "text": "added something"
+  },
+  {
+    "type": "TextBlock",
+    "text": "2024-02-16T11:47:45+05:30"
+  },
+  {
+    "type": "TextBlock",
+    "text": "https://github.com/krahul2024/Teams/commit/66970590d11903b73fea21bc2d7c123e1eb7a8e7"
+  },
+  {
+    "type": "TextBlock",
+    "text": "Sah"
+  },
+  {
+    "type": "TextBlock",
+    "text": "rasah@softwareag.com"
+  },
+  {
+    "type": "TextBlock",
+    "text": "Sah"
+  },
+  {
+    "type": "TextBlock",
+    "text": "rasah@softwareag.com"
+  }
+]
+
+                      }
+                    ]
+                  }
+                ],
+                "style": "default",
+                "bleed": true,
+                "border": true
+              },
+              {
+            "type": "ActionSet",
+            "actions": [
+              {
+                "type": "Action.OpenUrl",
+                "title": "View Commit",
+                "url": "https://github.com/krahul2024/Teams/commit/66970590d11903b73fea21bc2d7c123e1eb7a8e7"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "type": "message",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "contentUrl": null,
+      "content": {
+        "type": "AdaptiveCard",
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.5",
+        "body": [
+          {
+            "type": "TextBlock",
+            "text": "Transaction Details",
+            "weight": "Bolder",
+            "wrap": true
+          },
+          {
+            "type": "Container",
+            "items": [
+              {
+                "type": "ColumnSet",
+                "columns": [
+                  {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                      {
+                        "type": "TextBlock",
+                        "text": "Date Received : ",
+                        "weight": "Bolder",
+                        "wrap": true
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Sender : ",
+                        "weight": "Bolder",
+                        "wrap": true
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Receiver : ",
+                        "weight": "Bolder",
+                        "wrap": true
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Processing Status",
+                        "weight": "Bolder",
+                        "wrap": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                      {
+                        "type": "TextBlock",
+                        "text": "Mar 11, 2024, 11:59:48 AM"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Unknown"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Unknown"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "DONE W/ ERRORS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "style": "default",
+            "bleed": true,
+            "border": true
+          },
+          {
+            "type": "ActionSet",
+            "actions": [
+              {
+                "type": "Action.OpenUrl",
+                "title": "View Transaction Details",
+                "url": "https://localhost:4000/#/transactions?id=0ag40d00homm47ko00007ij1&source=live"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

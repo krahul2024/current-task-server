@@ -1,0 +1,11 @@
+{
+  "event": "success",
+  "message": "The operation completed successfully.",
+  "timestamp": "2024-02-16T12:00:00Z",
+  "details": {
+    "user": "John Doe",
+    "action": "Update",
+    "resource": "Database",
+    "affected_rows": 10
+  }
+}

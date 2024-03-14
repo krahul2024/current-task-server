@@ -1,0 +1,208 @@
+{
+  "type": "message",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "contentUrl": null,
+      "content": {
+        "type": "AdaptiveCard",
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.5",
+        "body": [
+          {
+            "type": "TextBlock",
+            "text": "Details of Commit on 2024-02-19T12:14:44+05:30 at undefined",
+            "weight": "Bolder",
+            "wrap": true
+          },
+          {
+            "type": "Container",
+            "items": [
+              {
+                "type": "ColumnSet",
+                "columns": [
+                  {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                      {
+                        "type": "TextBlock",
+                        "text": "Branch:",
+                        "weight": "Bolder",
+                        "wrap": true
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Before Commit:",
+                        "weight": "Bolder",
+                        "wrap": true
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "After Commit:",
+                        "weight": "Bolder",
+                        "wrap": true
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Pusher Name:",
+                        "weight": "Bolder",
+                        "wrap": true
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Pusher Email:",
+                        "weight": "Bolder",
+                        "wrap": true
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Compare URL:",
+                        "weight": "Bolder",
+                        "wrap": true
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Commit ID:",
+                        "weight": "Bolder",
+                        "wrap": true
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Commit Message:",
+                        "weight": "Bolder",
+                        "wrap": true
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Commit Timestamp:",
+                        "weight": "Bolder",
+                        "wrap": true
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Commit URL:",
+                        "weight": "Bolder",
+                        "wrap": true
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Commit Author Name:",
+                        "weight": "Bolder",
+                        "wrap": true
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Commit Author Email:",
+                        "weight": "Bolder",
+                        "wrap": true
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Commit Committer Name:",
+                        "weight": "Bolder",
+                        "wrap": true
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Commit Committer Email:",
+                        "weight": "Bolder",
+                        "wrap": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                      {
+                        "type": "TextBlock",
+                        "text": "refs/heads/main"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "86e6d2bbfcc7ee11c71612e2546210d824f"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "08ca37fc2aa90620a5038e9c45b19fca935"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "krahul2024"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "sandipkumar2024@gmail.com"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "https://github.com/krahul2024/Teams/compare/86e6d2bbfcc7...08ca37fc2aa9"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "08ca37fc2aa90620a5038e9c45b19fca93510aec"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "some changes in the yaml file"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "2024-02-19T12:14:44+05:30"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "https://github.com/krahul2024/Teams/commit/08ca37fc2aa90620a5038e9c45b19fca93510aec"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Sah"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "rasah@softwareag.com"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "Sah"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "rasah@softwareag.com"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "style": "default",
+            "bleed": true,
+            "border": true
+          },
+          {
+            "type": "TextBlock",
+            "text": "Modified Files:",
+            "weight": "Bolder",
+            "wrap": true
+          },
+          {
+            "type": "TextBlock",
+            "text": ".github/workflows/main.yml",
+            "wrap": true
+          },
+          {
+            "type": "ActionSet",
+            "actions": [
+              {
+                "type": "Action.OpenUrl",
+                "title": "View Commit Details",
+                "url": "https://github.com/krahul2024/Teams/commit/08ca37fc2aa90620a5038e9c45b19fca93510aec"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+curl -X POST "http://localhost:4000/curl-check" -H "Content-Type: application/json" -d @data.json

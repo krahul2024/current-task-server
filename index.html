@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mouse Event Example</title>
+</head>
+<body>
+    <!-- Adding an element with an onmousemove attribute to trigger the handleMove function -->
+    <div onmousemove="handleMove(event)" style="width: 200px; height: 200px; background-color: lightblue;">
+        Hover me
+    </div>
+
+    <script>
+        // Function to handle mouse move event
+        function handleMove(event) {
+            // Display the movementX and movementY
+            console.log(event.clientX, event.clientY, '\n')
+            console.log("Mouse moved by (" + event.movementX + ", " + event.movementY + ")");
+        }
+    </script>
+</body>
+</html>

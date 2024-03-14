@@ -1,0 +1,13 @@
+tasks.helper ---> completed
+
+stacked-bar-chart-helper --> in progress
+
+activity-logs.helper ---> completed
+
+records-filter.helper --> completed
+
+partner-profiles-list.helper --> completed
+
+
+IMP : Check for the descriptions of each test case in all the files, also remove all the fdescribe() and xit(s). 
+
